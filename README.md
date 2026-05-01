@@ -1,36 +1,27 @@
-Dataset: **Financial Transaction Fraud Detection**
+Dataset: Gene Expression Disease Classification
 
-I am choosing the Financial Transaction Fraud Detection Dataset, which contains information about money transfers between different accounts. It includes details such as transaction type, amount, sender and receiver information, and account balances before and after each transaction. The dataset is available in CSV format and is well-structured, making it easy to analyze and use for machine learning.
+I am choosing the Gene Expression Disease Classification Dataset, which contains high-dimensional biological data representing gene activity levels across different samples. The dataset includes more than 400 gene-related features (gene_0 to gene_408) that capture variations in gene expression patterns. A separate labels file contains the disease or class category for each sample. The dataset is available in CSV format and is well-structured for machine learning and data analysis tasks.
 
-**Problem Statement:**
+Problem Statement:
 
-Build a predictive model to identify whether a transaction is fraudulent or not based on historical transaction data.
-Analyze transaction patterns to detect unusual or suspicious behavior in financial activities.
-Identify key factors (such as transaction amount or balance changes) that contribute most to fraudulent transactions.
-Develop a model to classify high-risk and low-risk transactions for better monitoring.
+Build a predictive machine learning model to classify diseases based on gene expression patterns. Analyze gene activity to identify abnormal biological behavior associated with specific diseases. Detect the most influential genes contributing to disease prediction and classification. Develop a robust classification system to distinguish between different disease categories with high accuracy.
 
-**Title: "FRAUD DETECTION SYSTEM"**
+Title: “GENE EXPRESSION DISEASE CLASSIFICATION SYSTEM” Main Goal:
 
-**Main Goal:**
+The main goal of this project is to identify and classify diseases using gene expression data and machine learning techniques. The project aims to improve disease prediction accuracy by analyzing biological patterns hidden within high-dimensional genetic data. It also focuses on identifying important genes that act as potential biomarkers for disease diagnosis and healthcare research.
 
-The main goal of this project is to detect fraudulent transactions in advance and help prevent financial losses by analyzing past transaction patterns.
-The project also aims to highlight important factors that contribute to fraud, such as sudden changes in account balance or large transaction amounts
+Columns Impacting Project: Gene Features: gene_0 to gene_408
 
-**Columns Impacting Project:**
+These columns represent gene expression values that influence disease prediction.
 
-Time: step
-Transaction Details: type, amount
+Target Variable: Disease Label / Class Label (from labels.csv)
 
-Sender Information: nameOrig, oldbalanceOrg, newbalanceOrig
+This column represents the disease category associated with each sample.
 
-Receiver Information: nameDest, oldbalanceDest, newbalanceDest
+Project Helpful For: This project is helpful for: Healthcare organizations Biomedical researchers Disease diagnosis systems Bioinformatics applications Personalized medicine research
 
-Target Variable: isFraud, isFlaggedFraud
+It helps in early disease prediction, biomarker identification, and improving medical decision-making using artificial intelligence and machine learning techniques.
 
-**Project Helpful For:**
+Conclusion:
 
-This project is helpful for banks and financial institutions to detect fraud quickly, reduce financial losses, and improve transaction security. It also helps customers by protecting their accounts from unauthorized activities.
-
-**Conclusion:**
-
-This project helps in understanding transaction behavior and identifying suspicious activities. It can be useful for building secure and reliable fraud detection systems in the financial sector.
+This project helps in understanding biological patterns hidden within gene expression data and identifying disease-related abnormalities. By applying machine learning algorithms, the system can accurately classify diseases and highlight important genetic features contributing to prediction. The project can support the development of intelligent healthcare systems and advanced medical research solutions.
